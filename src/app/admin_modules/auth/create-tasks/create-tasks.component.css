@@ -1,0 +1,17 @@
+.create_form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.content_form {
+    width: 50%;
+    box-shadow: 0 0 10px black;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.inp_img{
+    display: none;
+}

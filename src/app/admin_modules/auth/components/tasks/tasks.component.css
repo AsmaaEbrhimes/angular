@@ -1,0 +1,13 @@
+.p-dropdown .p-dropdown-label.p-placeholder {
+    color: #6b7280;
+    width: 300px;
+}
+
+.p-calendar .p-inputtext {
+    flex: 1 1 auto;
+    width: 1%;
+    text-overflow: ellipsis;
+    width: 700px;
+    position: relative;
+}
+

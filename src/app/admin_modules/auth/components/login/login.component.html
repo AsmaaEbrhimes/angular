@@ -1,0 +1,21 @@
+
+
+<form (submit)="Login()" [formGroup]="loginForm" class="form_login">
+  <div class="content_form_login">
+    <h1>Login</h1>
+    <div>
+      <mat-form-field>
+        <mat-label>Email</mat-label>
+        <input matInput formControlName="email">
+      </mat-form-field>
+      <mat-error></mat-error>
+    </div>
+    <div>
+      <mat-form-field>
+        <mat-label>Password</mat-label>
+        <input matInput formControlName="password" type="password">
+      </mat-form-field>
+    </div>
+    <button [disabled]="loginForm.invalid" type="submit">Login</button>
+  </div>
+</form>
